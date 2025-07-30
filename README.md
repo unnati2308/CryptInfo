@@ -1,12 +1,31 @@
-# React + Vite
+# CryptInfo -  Your Go-to Crypto Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live at: https://crypt-info-six.vercel.app
 
-Currently, two official plugins are available:
+CryptInfo is a modern cryptocurrency dashboard built using React, Vite, and Tailwind CSS. It fetches real-time crypto market data and displays it in an intuitive and responsive interface, making it easy for users to track trends, prices, and volume across various coins.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features
+🔍 Live Cryptocurrency Prices – Real-time data pulled from crypto APIs.  
+📊 Market Stats – Displays key metrics like price, 24h change, and volume.  
+🎯 Search Functionality – Quickly filter and find your favorite coins.  
+📱 Responsive Design – Works seamlessly on all devices.  
+⚡ Built with Vite for lightning-fast development.  
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
+Frontend: React, Tailwind CSS, JavaScript  
+Build Tool: Vite  
+Deployment: Vercel  
+API: CoinGecko API  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+crypt-info/
+├── public/                
+├── src/  
+│   ├── components/        
+│   ├── pages/           
+│   ├── App.jsx          
+│   └── main.jsx         
+├── package.json         
+├── tailwind.config.js   
+└── vite.config.js     
+
